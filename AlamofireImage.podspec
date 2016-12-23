@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.authors = { 'Alamofire Software Foundation' => 'info@alamofire.org' }
 
   s.source = { :git => 'https://github.com/Alamofire/AlamofireImage.git', :tag => s.version }
-  s.source_files = 'Source/*.swift', 'Source/*.{h,m}'
+  s.source_files = 'Source/*.swift', 'Source/ObjC/*.{h,m}'
 
   s.osx.exclude_files = [
     'Source/UIButton+AlamofireImage.swift',
