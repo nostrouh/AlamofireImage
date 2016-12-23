@@ -319,7 +319,7 @@ extension UIImage {
 
         guard let coreImage = image else { return nil }
 
-        let context = CIContext(options: [kCIContextPriorityRequestLow: true])
+        let context = CIContext.lgi_contextWithOptions([kCIContextPriorityRequestLow: true])
 
         var parameters: [String: AnyObject] = filterParameters ?? [:]
         parameters[kCIInputImageKey] = coreImage

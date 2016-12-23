@@ -21,6 +21,7 @@
 // THE SOFTWARE.
 
 #import <Foundation/Foundation.h>
+#import "CIContext+Workaround.h"
 
 FOUNDATION_EXPORT double AlamofireImageVersionNumber;
 FOUNDATION_EXPORT const unsigned char AlamofireImageVersionString[];
